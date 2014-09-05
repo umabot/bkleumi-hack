@@ -1,0 +1,811 @@
+# Use the Bilingual file to review translations, edit labels that have already been translated, and add translations for labels that haven't been translated.
+# - The TRANSLATED section of the file contains the text that has been translated and needs to be reviewed.
+# - The UNTRANSLATED section of the file contains text that hasn't been translated. You can replace untranslated labels in the LABEL column with translated values.
+
+# The Out of Date indicators are:
+# - An asterisk (*): The label is out of date. A change was made to the default language label and the translation hasn't been updated.
+# - A dash (-): The translation is current.
+
+# Notes:
+# Don't add columns to or remove columns from this file.
+# Tabs (\t), new lines (\n) and carriage returns (\r) are represented by special characters in this file. These characters should be preserved in the import file to maintain formatting.
+# Lines that begin with the # symbol are ignored during import.
+# Salesforce translation files are exported in the UTF-8 encoding to support extended and double-byte characters. This encoding cannot be changed.
+
+# Language: Hebrew
+Language code: iw
+Type: Bilingual
+
+------------------TRANSLATED-------------------
+
+# KEY	LABEL	TRANSLATION	OUT OF DATE
+
+CustomField.Customer__c.Branch_del_del.FieldLabel	Branch	סניף	-
+CustomField.Customer__c.Customer_Number.FieldLabel	Customer Number	מס לקוח	-
+CustomField.Customer__c.Primary_Segment.FieldLabel	Primary Segment	סגמנט ראשי	-
+CustomField.Bank_Account__c.Account_Number.FieldLabel	Account Number	מס חשבון	-
+CustomField.Bank_Account__c.Customer.FieldLabel	Customer	לקוח	-
+CustomField.Bank_Account__c.Type_of_Account.FieldLabel	Type of Account	סוג חשבון	-
+CustomField.Product__c.Available_Range_months.FieldLabel	Available Range (months)	טווח אפשרי - חודשים	-
+CustomField.Product__c.Currency.FieldLabel	Currency	מטבע	-
+CustomField.Product__c.Interest.FieldLabel	Interest	ריבית	-
+CustomField.Product__c.Linkage_Type.FieldLabel	Linkage Type	סוג הצמדה	-
+CustomField.Product__c.Loan_Deposit_amount.FieldLabel	Loan \ Deposit amount	סכום הלוואה\פיקדון	-
+CustomField.Product__c.Maximum_Period.FieldLabel	Maximum Period	תקופת מקסימום בימים	-
+CustomField.Product__c.Minimum_Period.FieldLabel	Minimum Period	תקופת מינימום בימים	-
+CustomField.Product__c.Payments.FieldLabel	Payments #	מספר תשלומים	-
+CustomField.Product__c.Product_Model_Nbr.FieldLabel	Product_Model_Nbr	מספר דגם	-
+CustomField.Product__c.Product_Name.FieldLabel	Product_Name	שם דגם	-
+CustomField.Product__c.Product_Type.FieldLabel	Product Type	סוג מוצר	-
+CustomField.Branch__c.Branch_Address.FieldLabel	Branch Address	כתובת סניף	-
+CustomField.Branch__c.Branch_City.FieldLabel	Branch City	עיר/ישוב	-
+CustomField.Branch__c.Branch_Number.FieldLabel	Branch Number	מספר סניף	-
+CustomField.Branch__c.CloseFriday.FieldLabel	CloseFriday	שעת סגירה יום ו	-
+CustomField.Branch__c.CloseMonday.FieldLabel	CloseMonday	שעת סגירה יום ב	-
+CustomField.Branch__c.CloseSunday.FieldLabel	CloseSunday	שעת סגירה יום א	-
+CustomField.Branch__c.CloseThursday.FieldLabel	CloseThursday	שעת סגירה יום ה	-
+CustomField.Branch__c.CloseTuesday.FieldLabel	CloseTuesday	שעת סגירה יום ג	-
+CustomField.Branch__c.CloseWednesday.FieldLabel	CloseWednesday	שעת סגירה יום ד	-
+CustomField.Branch__c.Location.FieldLabel	Location	מיקום X	*
+CustomField.Branch__c.OpenFriday.FieldLabel	OpenFriday	שעת פתיחה יום ו	-
+CustomField.Branch__c.OpenMonday.FieldLabel	OpenMonday	שעת פתיחה יום ב	-
+CustomField.Branch__c.OpenSunday.FieldLabel	OpenSunday	שעת פתיחה יום א	-
+CustomField.Branch__c.OpenThursday.FieldLabel	OpenThursday	שעת פתיחה יום ה	-
+CustomField.Branch__c.OpenTuesday.FieldLabel	OpenTuesday	שעת פתיחה יום ג	-
+CustomField.Branch__c.OpenWednesday.FieldLabel	OpenWednesday	שעת פתיחה יום ד	-
+CustomField.Branch__c.Phone.FieldLabel	Phone	מספר טלפון	-
+CustomField.Action__c.Account_ID.FieldLabel	Account ID #	חשבון	-
+CustomField.Action__c.Amount.FieldLabel	Amount	סכום	-
+CustomField.Action__c.Bank_Account.FieldLabel	Bank Account	חשבון בנק	-
+CustomField.Action__c.CategoryID.FieldLabel	CategoryID	תת-קטגוריה	-
+CustomField.Action__c.Date.FieldLabel	Date	תאריך	-
+CustomField.Action__c.Description.FieldLabel	Description	תיאור	-
+CustomField.Action__c.Reference.FieldLabel	Reference	מספר אסמכתא	-
+CustomField.Action__c.Running_Balance.FieldLabel	Running Balance	יתרת חשבון	-
+CustomField.Action__c.Transaction_Type.FieldLabel	Transaction Type	סוג תנועה	-
+CustomField.Command__c.Account.FieldLabel	Account	חשבון	-
+CustomField.Command__c.Bank_Account.FieldLabel	Bank Account	חשבון בנק	-
+CustomField.Command__c.Channel.FieldLabel	Channel	ערוץ ביצוע	-
+CustomField.Command__c.Command_Description.FieldLabel	Command Description	תאור הוראה	-
+CustomField.Command__c.Date.FieldLabel	Date	תאריך	-
+CustomField.Command__c.OperationType.FieldLabel	Operation Type	סוג פעולה	-
+CustomField.Command__c.Request_Date.FieldLabel	Request Date	תאריך בקשה	-
+CustomField.Command__c.Status.FieldLabel	Status	סטטוס	-
+CustomField.Debit__c.Account.FieldLabel	Account #	מספר חשבון	-
+CustomField.Debit__c.CategoryID.FieldLabel	CategoryID	תת-קטגוריה	-
+CustomField.Debit__c.Credit_Card_Number.FieldLabel	Credit Card Number	מספר כרטיס אשראי	-
+CustomField.Debit__c.Current_Payment.FieldLabel	Current Payment	מספר התשלום הנוכחי	-
+CustomField.Debit__c.Deal_Amount.FieldLabel	Deal Amount	סכום העסקה	-
+CustomField.Debit__c.Deal_Date.FieldLabel	Deal Date	תאריך העסקה	-
+CustomField.Debit__c.Deal_Name.FieldLabel	Deal Name	תיאור בית העסק	-
+CustomField.Debit__c.Debit_Date.FieldLabel	Debit Date	תאריך חיוב	-
+CustomField.Debit__c.Debit_or_Credit.FieldLabel	Debit or Credit	חיוב או זיכוי	-
+CustomField.Debit__c.Debit_time.FieldLabel	Debit time	מועד חיוב	-
+CustomField.Debit__c.End_Date.FieldLabel	End Date	תאריך סיום	-
+CustomField.Debit__c.Payment.FieldLabel	Payment	סכום תשלום נוכחי	-
+CustomField.Debit__c.Placing_Loan_date.FieldLabel	Placing Loan date	תאריך העמדת הלוואה	-
+CustomField.Debit__c.Total_Payments.FieldLabel	Total Payments	סה"כ תשלומים לעסקה	-
+CustomField.Service__c.Contact.FieldLabel	Contact	פרט	-
+CustomField.Beneficiary__c.Contact.FieldLabel	Contact	פרט	-
+CustomField.Contact.Bank_Empoyee.FieldLabel	Bank Empoyee	עובד בנק	-
+CustomField.Contact.Disability.FieldLabel	Disability	סוג נגישות	-
+CustomField.Contact.Disability.HelpText	Does the client need special accessibility - Escort Mail, wrote a great	האם הלקוח נזקק להנגשה מיוחדת - ליווי קולי, כתב גדול	-
+CustomField.Contact.Disability_special_treatment.FieldLabel	Disability- special treatment	נגישות - יחס מיוחד לצד מעורב	-
+CustomField.Contact.Duality.FieldLabel	Duality	דואליות	-
+CustomField.Contact.Duality.HelpText	Activity in another bank	פעילות בבנק אחר	-
+CustomField.Contact.Frequency_of_visits_to_the_branch.FieldLabel	Frequency of visits to the branch	תדירות ביקורים בסניף	-
+CustomField.Contact.Gender.FieldLabel	Gender	מגדר	-
+CustomField.Contact.ID_Method.FieldLabel	ID Method	סוג זיהוי	-
+CustomField.Contact.ID_Number.FieldLabel	ID Number	מספר זיהוי	-
+CustomField.Contact.Languages.FieldLabel	Languages	שפות	-
+CustomField.Contact.Level.FieldLabel	Level	רמה	-
+CustomField.Contact.Marital_Status.FieldLabel	Marital Status	מצב משפחתי	-
+CustomField.Contact.Occupation.FieldLabel	Occupation	עיסוק	-
+CustomField.Contact.Primary_Language.FieldLabel	Primary Language	שפה עיקרית	-
+CustomField.Contact.Primary_Phone.FieldLabel	Primary Phone	טלפון ראשי	-
+CustomField.Contact.Product.FieldLabel	Product	מוצר	-
+CustomField.Contact.Relation_Type.FieldLabel	Relation Type	סוג קשר	-
+CustomField.Contact.Senior_Mgmt.FieldLabel	Senior Mgmt	נושא משרה בכירה בבנק	-
+CustomField.Contact.Title.FieldLabel	Title	תואר	-
+CustomField.Contact.of_Children.FieldLabel	# of Children	מספר ילדים	-
+PicklistValue.Customer__c.Primary_Segment.AI	AI	AI	-
+PicklistValue.Customer__c.Primary_Segment.CB1	CB1	CB1	-
+PicklistValue.Customer__c.Primary_Segment.CB2	CB2	CB2	-
+PicklistValue.Customer__c.Primary_Segment.LB	LB	LB	-
+PicklistValue.Customer__c.Primary_Segment.PT	PT	PT	-
+PicklistValue.Customer__c.Primary_Segment.SLS	SLS	SLS	-
+PicklistValue.Customer__c.Primary_Segment.VIP	VIP	VIP	-
+PicklistValue.Product__c.Currency.Dollar	Dollar	דולר	-
+PicklistValue.Product__c.Currency.Euro	Euro	אירו	-
+PicklistValue.Product__c.Currency.Not Relevant	Not Relevant	לא רלוונטי	-
+PicklistValue.Product__c.Currency.Shekel	Shekel	שקל	-
+PicklistValue.Product__c.Linkage_Type.CPI-Linked	CPI-Linked	צמוד מדד	-
+PicklistValue.Product__c.Linkage_Type.Irrelevant	Irrelevant	לא רלבנטי	-
+PicklistValue.Product__c.Linkage_Type.Linked to Foreign Currency	Linked to Foreign Currency	צמוד מט"ח	-
+PicklistValue.Product__c.Linkage_Type.Not Linked to CPI	Not Linked to CPI	לא צמוד למדד	-
+PicklistValue.Product__c.Product_Type.Credit card	Credit card	כרטיס אשראי	-
+PicklistValue.Product__c.Product_Type.Deposit	Deposit	פיקדון	-
+PicklistValue.Product__c.Product_Type.Loan	Loan	הלוואה	-
+PicklistValue.Product__c.Product_Type.Saving	Saving	תוכנית חיסכון	-
+PicklistValue.Contact.Disability.Large Text	Large Text	כתב מוגדל	-
+PicklistValue.Contact.Disability.Voice Guidance	Voice Guidance	ליוי קולי	-
+PicklistValue.Contact.Frequency_of_visits_to_the_branch.Annual and up	Annual and up	שנתי ומעלה	-
+PicklistValue.Contact.Frequency_of_visits_to_the_branch.Monthly to semi-annual	Monthly to semi-annual	חודשי עד חצי שנתי	-
+PicklistValue.Contact.Frequency_of_visits_to_the_branch.Weekly to monthly	Weekly to monthly	שבועי עד חודשי	-
+PicklistValue.Contact.Gender.Female	Female	נקבה	-
+PicklistValue.Contact.Gender.Male	Male	זכר	-
+PicklistValue.Contact.Gender.Other	Other	אחר	-
+PicklistValue.Contact.ID_Method.ID	ID	ת.ז	-
+PicklistValue.Contact.ID_Method.Passport	Passport	דרכון	-
+PicklistValue.Contact.Marital_Status.Divorced	Divorced	גרוש/ה	-
+PicklistValue.Contact.Marital_Status.Married	Married	נשוי/ה	-
+PicklistValue.Contact.Marital_Status.Refuses to Answer	Refuses to Answer	מסרב/ת לענות	-
+PicklistValue.Contact.Marital_Status.Single	Single	רווק/ה	-
+PicklistValue.Contact.Marital_Status.Spouses	Spouses	בני זוג	-
+PicklistValue.Contact.Marital_Status.Widowed	Widowed	אלמן/ה	-
+PicklistValue.Contact.Occupation.Does not work	Does not work	לא עובד	-
+PicklistValue.Contact.Occupation.Employee	Employee	שכיר	-
+PicklistValue.Contact.Occupation.Independent	Independent	עצמאי	-
+PicklistValue.Contact.Occupation.Independent - Company Owner	Independent - Company Owner	עצמאי - בעל חברה	-
+PicklistValue.Contact.Occupation.Retired	Retired	פנסיונר	-
+PicklistValue.Contact.Occupation.Self-employed - Licensed Dealer	Self-employed - Licensed Dealer	עצמאי - עוסק מורשה	-
+PicklistValue.Contact.Relation_Type.Brother	Brother	אח	-
+PicklistValue.Contact.Relation_Type.Child	Child	ילד	-
+PicklistValue.Contact.Relation_Type.Parent	Parent	הורה	-
+PicklistValue.Contact.Relation_Type.Spouse	Spouse	בן זוג	-
+PicklistValue.Contact.Title.Academic	Academic	אקדמאי	-
+PicklistValue.Contact.Title.BA	BA	BA	-
+PicklistValue.Contact.Title.Director	Director	מנהל	-
+PicklistValue.Contact.Title.Doctor	Doctor	דוקטור	-
+PicklistValue.Contact.Title.Engineer	Engineer	מהנדס	-
+PicklistValue.Contact.Title.MA	MA	MA	-
+PicklistValue.Contact.Title.Maturity	Maturity	בגרות	-
+PicklistValue.Contact.Title.Member of Knesset	Member of Knesset	חבר כנסת	-
+PicklistValue.Contact.Title.Professor	Professor	פרופסור	-
+PicklistValue.Contact.Title.Rabbi	Rabbi	רב	-
+
+
+------------------UNTRANSLATED-----------------
+
+# KEY	LABEL
+
+PicklistValue.Branch__c.Branch_City.אבן יהודה	אבן יהודה
+PicklistValue.Branch__c.Branch_City.אופקים	אופקים
+PicklistValue.Branch__c.Branch_City.אור יהודה	אור יהודה
+PicklistValue.Branch__c.Branch_City.אורנית	אורנית
+PicklistValue.Branch__c.Branch_City.אזור	אזור
+PicklistValue.Branch__c.Branch_City.אילת	אילת
+PicklistValue.Branch__c.Branch_City.אשדוד	אשדוד
+PicklistValue.Branch__c.Branch_City.אשקלון	אשקלון
+PicklistValue.Branch__c.Branch_City.באקה אל גרבי	באקה אל גרבי
+PicklistValue.Branch__c.Branch_City.באר יעקב	באר יעקב
+PicklistValue.Branch__c.Branch_City.באר שבע	באר שבע
+PicklistValue.Branch__c.Branch_City.בית שאן	בית שאן
+PicklistValue.Branch__c.Branch_City.בית שמש	בית שמש
+PicklistValue.Branch__c.Branch_City.בני ברק	בני ברק
+PicklistValue.Branch__c.Branch_City.בנימינה	בנימינה
+PicklistValue.Branch__c.Branch_City.בת ים	בת ים
+PicklistValue.Branch__c.Branch_City.גבעת שמואל	גבעת שמואל
+PicklistValue.Branch__c.Branch_City.גבעתיים	גבעתיים
+PicklistValue.Branch__c.Branch_City.גדרה	גדרה
+PicklistValue.Branch__c.Branch_City.גלגוליה	גלגוליה
+PicklistValue.Branch__c.Branch_City.גן יבנה	גן יבנה
+PicklistValue.Branch__c.Branch_City.דימונה	דימונה
+PicklistValue.Branch__c.Branch_City.דלית אל כרמל	דלית אל כרמל
+PicklistValue.Branch__c.Branch_City.הוד השרון	הוד השרון
+PicklistValue.Branch__c.Branch_City.הרצליה	הרצליה
+PicklistValue.Branch__c.Branch_City.זכרון יעקב	זכרון יעקב
+PicklistValue.Branch__c.Branch_City.חבל מודיעין	חבל מודיעין
+PicklistValue.Branch__c.Branch_City.חדרה	חדרה
+PicklistValue.Branch__c.Branch_City.חולון	חולון
+PicklistValue.Branch__c.Branch_City.חיפה	חיפה
+PicklistValue.Branch__c.Branch_City.טבריה	טבריה
+PicklistValue.Branch__c.Branch_City.טייבה	טייבה
+PicklistValue.Branch__c.Branch_City.טירה	טירה
+PicklistValue.Branch__c.Branch_City.טירת הכרמל	טירת הכרמל
+PicklistValue.Branch__c.Branch_City.יבנה	יבנה
+PicklistValue.Branch__c.Branch_City.יהוד מונוסון	יהוד מונוסון
+PicklistValue.Branch__c.Branch_City.יוקנעם עילית	יוקנעם עילית
+PicklistValue.Branch__c.Branch_City.ירושלים	ירושלים
+PicklistValue.Branch__c.Branch_City.כוכב יאיר	כוכב יאיר
+PicklistValue.Branch__c.Branch_City.כפר סבא	כפר סבא
+PicklistValue.Branch__c.Branch_City.כפר קאסם	כפר קאסם
+PicklistValue.Branch__c.Branch_City.כפר שמריהו	כפר שמריהו
+PicklistValue.Branch__c.Branch_City.כרמיאל	כרמיאל
+PicklistValue.Branch__c.Branch_City.לוד	לוד
+PicklistValue.Branch__c.Branch_City.מבשרת ציון	מבשרת ציון
+PicklistValue.Branch__c.Branch_City.מגדל העמק	מגדל העמק
+PicklistValue.Branch__c.Branch_City.מודיעין	מודיעין
+PicklistValue.Branch__c.Branch_City.מזכרת בתיה	מזכרת בתיה
+PicklistValue.Branch__c.Branch_City.מעלה אדומים	מעלה אדומים
+PicklistValue.Branch__c.Branch_City.מעלות	מעלות
+PicklistValue.Branch__c.Branch_City.נהריה	נהריה
+PicklistValue.Branch__c.Branch_City.נס ציונה	נס ציונה
+PicklistValue.Branch__c.Branch_City.נצרת	נצרת
+PicklistValue.Branch__c.Branch_City.נצרת עילית	נצרת עילית
+PicklistValue.Branch__c.Branch_City.נשר	נשר
+PicklistValue.Branch__c.Branch_City.נתיבות	נתיבות
+PicklistValue.Branch__c.Branch_City.נתניה	נתניה
+PicklistValue.Branch__c.Branch_City.עכו	עכו
+PicklistValue.Branch__c.Branch_City.עפולה	עפולה
+PicklistValue.Branch__c.Branch_City.ערד	ערד
+PicklistValue.Branch__c.Branch_City.פרדיס	פרדיס
+PicklistValue.Branch__c.Branch_City.פרדס חנה	פרדס חנה
+PicklistValue.Branch__c.Branch_City.פרדסיה	פרדסיה
+PicklistValue.Branch__c.Branch_City.פתח תקווה	פתח תקווה
+PicklistValue.Branch__c.Branch_City.צפת	צפת
+PicklistValue.Branch__c.Branch_City.קצרין	קצרין
+PicklistValue.Branch__c.Branch_City.קריית חיים	קריית חיים
+PicklistValue.Branch__c.Branch_City.קרית אונו	קרית אונו
+PicklistValue.Branch__c.Branch_City.קרית אתא	קרית אתא
+PicklistValue.Branch__c.Branch_City.קרית ביאליק	קרית ביאליק
+PicklistValue.Branch__c.Branch_City.קרית גת	קרית גת
+PicklistValue.Branch__c.Branch_City.קרית טבעון	קרית טבעון
+PicklistValue.Branch__c.Branch_City.קרית ים	קרית ים
+PicklistValue.Branch__c.Branch_City.קרית מוצקין	קרית מוצקין
+PicklistValue.Branch__c.Branch_City.קרית מלאכי	קרית מלאכי
+PicklistValue.Branch__c.Branch_City.קרית שמונה	קרית שמונה
+PicklistValue.Branch__c.Branch_City.ראש העין	ראש העין
+PicklistValue.Branch__c.Branch_City.ראש פינה	ראש פינה
+PicklistValue.Branch__c.Branch_City.ראשון לציון	ראשון לציון
+PicklistValue.Branch__c.Branch_City.רחובות	רחובות
+PicklistValue.Branch__c.Branch_City.רמלה	רמלה
+PicklistValue.Branch__c.Branch_City.רמת גן	רמת גן
+PicklistValue.Branch__c.Branch_City.רמת השרון	רמת השרון
+PicklistValue.Branch__c.Branch_City.רמת ישי	רמת ישי
+PicklistValue.Branch__c.Branch_City.רעננה	רעננה
+PicklistValue.Branch__c.Branch_City.שדרות	שדרות
+PicklistValue.Branch__c.Branch_City.שוהם	שוהם
+PicklistValue.Branch__c.Branch_City.תל אביב	תל אביב
+PicklistValue.Branch__c.Branch_City.תל אביב יפו	תל אביב יפו
+PicklistValue.Branch__c.Branch_City.תל מונד	תל מונד
+PicklistValue.Action__c.CategoryID.בזק	בזק
+PicklistValue.Action__c.CategoryID.ביטוח	ביטוח
+PicklistValue.Action__c.CategoryID.ביטוח לאומי	ביטוח לאומי
+PicklistValue.Action__c.CategoryID.בריאות וטיפוח	בריאות וטיפוח
+PicklistValue.Action__c.CategoryID.גז	גז
+PicklistValue.Action__c.CategoryID.דיור ואחזקה	דיור ואחזקה
+PicklistValue.Action__c.CategoryID.הוצאות פיננסיות	הוצאות פיננסיות
+PicklistValue.Action__c.CategoryID.הוצאות שונות	הוצאות שונות
+PicklistValue.Action__c.CategoryID.הוראות קבע	הוראות קבע
+PicklistValue.Action__c.CategoryID.הוראת קבע להשקעה	הוראת קבע להשקעה
+PicklistValue.Action__c.CategoryID.החזר תשלומים	החזר תשלומים
+PicklistValue.Action__c.CategoryID.הכנסות	הכנסות
+PicklistValue.Action__c.CategoryID.הכנסות פיננסיות	הכנסות פיננסיות
+PicklistValue.Action__c.CategoryID.הלבשה והנעלה	הלבשה והנעלה
+PicklistValue.Action__c.CategoryID.הלוואה	הלוואה
+PicklistValue.Action__c.CategoryID.הפקדה לפקדון	הפקדה לפקדון
+PicklistValue.Action__c.CategoryID.הפקדה לתכנית חסכון	הפקדה לתכנית חסכון
+PicklistValue.Action__c.CategoryID.הפקדת מזומנים	הפקדת מזומנים
+PicklistValue.Action__c.CategoryID.הרשאת חיוב	הרשאת חיוב
+PicklistValue.Action__c.CategoryID.זיכוי המרת מט"ח	זיכוי המרת מט"ח
+PicklistValue.Action__c.CategoryID.זיכוי העברה	זיכוי העברה
+PicklistValue.Action__c.CategoryID.זיכוי מפעל הפיס	זיכוי מפעל הפיס
+PicklistValue.Action__c.CategoryID.זיכוי ק.גמל/ק.השתלמות	זיכוי ק.גמל/ק.השתלמות
+PicklistValue.Action__c.CategoryID.חיוב המרת מט"ח	חיוב המרת מט"ח
+PicklistValue.Action__c.CategoryID.חיוב העברה	חיוב העברה
+PicklistValue.Action__c.CategoryID.חיוב מפעל הפיס	חיוב מפעל הפיס
+PicklistValue.Action__c.CategoryID.חינוך	חינוך
+PicklistValue.Action__c.CategoryID.חשמל	חשמל
+PicklistValue.Action__c.CategoryID.כרטיס אשראי	כרטיס אשראי
+PicklistValue.Action__c.CategoryID.מזון	מזון
+PicklistValue.Action__c.CategoryID.מיסים עירוניים	מיסים עירוניים
+PicklistValue.Action__c.CategoryID.מס הכנסה	מס הכנסה
+PicklistValue.Action__c.CategoryID.מע"מ	מע"מ
+PicklistValue.Action__c.CategoryID.מענק מילואים	מענק מילואים
+PicklistValue.Action__c.CategoryID.משיכה מפקדון	משיכה מפקדון
+PicklistValue.Action__c.CategoryID.משיכה מתכנית חסכון	משיכה מתכנית חסכון
+PicklistValue.Action__c.CategoryID.משיכת מזומן	משיכת מזומן
+PicklistValue.Action__c.CategoryID.משכורת	משכורת
+PicklistValue.Action__c.CategoryID.משכנתא	משכנתא
+PicklistValue.Action__c.CategoryID.ני"ע הוצאות	ני"ע הוצאות
+PicklistValue.Action__c.CategoryID.ני"ע הכנסות	ני"ע הכנסות
+PicklistValue.Action__c.CategoryID.פרעון הלוואה	פרעון הלוואה
+PicklistValue.Action__c.CategoryID.ק.גמל/ק.השתלמות	ק.גמל/ק.השתלמות
+PicklistValue.Action__c.CategoryID.קופת חולים	קופת חולים
+PicklistValue.Action__c.CategoryID.קיצבת ילדים	קיצבת ילדים
+PicklistValue.Action__c.CategoryID.שיק שהופקד	שיק שהופקד
+PicklistValue.Action__c.CategoryID.שיק שהופקד וחזר	שיק שהופקד וחזר
+PicklistValue.Action__c.CategoryID.שיק שנמשך	שיק שנמשך
+PicklistValue.Action__c.CategoryID.שיק שנמשך וחזר	שיק שנמשך וחזר
+PicklistValue.Action__c.CategoryID.תחבורה ואנרגיה	תחבורה ואנרגיה
+PicklistValue.Action__c.CategoryID.תקשורת	תקשורת
+PicklistValue.Action__c.CategoryID.תרבות ופנאי	תרבות ופנאי
+PicklistValue.Action__c.CategoryID.תשלום ביטוח לאומי	תשלום ביטוח לאומי
+PicklistValue.Action__c.CategoryID.תשלום למוסדות	תשלום למוסדות
+PicklistValue.Action__c.CategoryID.תשלומים	תשלומים
+PicklistValue.Action__c.Transaction_Type.אחר	אחר
+PicklistValue.Action__c.Transaction_Type.הוראות קבע להשקעה	הוראות קבע להשקעה
+PicklistValue.Action__c.Transaction_Type.הלוואות	הלוואות
+PicklistValue.Action__c.Transaction_Type.העברות	העברות
+PicklistValue.Action__c.Transaction_Type.חסכונות	חסכונות
+PicklistValue.Action__c.Transaction_Type.כל התנועות	כל התנועות
+PicklistValue.Action__c.Transaction_Type.משכורות והכנסות אחרות	משכורות והכנסות אחרות
+PicklistValue.Action__c.Transaction_Type.משכנתאות	משכנתאות
+PicklistValue.Action__c.Transaction_Type.פעולות בכרטיסי אשראי	פעולות בכרטיסי אשראי
+PicklistValue.Action__c.Transaction_Type.פעולות במזומן	פעולות במזומן
+PicklistValue.Action__c.Transaction_Type.פעולות בני"ע	פעולות בני"ע
+PicklistValue.Action__c.Transaction_Type.פעולות כנגד מט"ח	פעולות כנגד מט"ח
+PicklistValue.Action__c.Transaction_Type.קופות גמל	קופות גמל
+PicklistValue.Action__c.Transaction_Type.ריביות,עמלות ומיסוי	ריביות,עמלות ומיסוי
+PicklistValue.Action__c.Transaction_Type.שיקים שהופקדו	שיקים שהופקדו
+PicklistValue.Action__c.Transaction_Type.שיקים שנמשכו	שיקים שנמשכו
+PicklistValue.Action__c.Transaction_Type.תשלומים	תשלומים
+PicklistValue.Command__c.Channel.אייפד	אייפד
+PicklistValue.Command__c.Channel.אייפון	אייפון
+PicklistValue.Command__c.Channel.אינטרנט	אינטרנט
+PicklistValue.Command__c.Channel.אנדרואיד	אנדרואיד
+PicklistValue.Command__c.Channel.גישה ישירה לקוחות	גישה ישירה לקוחות
+PicklistValue.Command__c.Channel.גלישה סלולארית	גלישה סלולארית
+PicklistValue.Command__c.Channel.טאבלט	טאבלט
+PicklistValue.Command__c.Channel.לאומי Call	לאומי Call
+PicklistValue.Command__c.Channel.לאומי טרייד ישראל	לאומי טרייד ישראל
+PicklistValue.Command__c.Channel.עמדות קהל	עמדות קהל
+PicklistValue.Command__c.OperationType.אי חידוש פיקדון (פקדונות אחרים)	אי חידוש פיקדון (פקדונות אחרים)
+PicklistValue.Command__c.OperationType.ביטול שיקים	ביטול שיקים
+PicklistValue.Command__c.OperationType.הזמנת פנקסי שיקים	הזמנת פנקסי שיקים
+PicklistValue.Command__c.OperationType.הזמנת פנקסי שיקים מסחריים	הזמנת פנקסי שיקים מסחריים
+PicklistValue.Command__c.OperationType.הלוואת אקספרס	הלוואת אקספרס
+PicklistValue.Command__c.OperationType.המרת מט"ח	המרת מט"ח
+PicklistValue.Command__c.OperationType.העברה ב- SMS	העברה ב- SMS
+PicklistValue.Command__c.OperationType.העברה בין חשבונותיי	העברה בין חשבונותיי
+PicklistValue.Command__c.OperationType.העברה לצד ג'	העברה לצד ג'
+PicklistValue.Command__c.OperationType.הפקדה לחיסכון חד פעמי	הפקדה לחיסכון חד פעמי
+PicklistValue.Command__c.OperationType.הפקדה לחיסכון תשלומים	הפקדה לחיסכון תשלומים
+PicklistValue.Command__c.OperationType.הפקדה לפידיום	הפקדה לפידיום
+PicklistValue.Command__c.OperationType.הפקדה לפיקדון בתשלומים	הפקדה לפיקדון בתשלומים
+PicklistValue.Command__c.OperationType.הפקדה לפיקדון רגיל	הפקדה לפיקדון רגיל
+PicklistValue.Command__c.OperationType.הפקדת שיקים	הפקדת שיקים
+PicklistValue.Command__c.OperationType.משיכה מפיקדון (פידיום)	משיכה מפיקדון (פידיום)
+PicklistValue.Command__c.OperationType.פיקדון מובנה	פיקדון מובנה
+PicklistValue.Command__c.OperationType.פירעון הלוואה	פירעון הלוואה
+PicklistValue.Command__c.OperationType.תשלומי בזק/חשמל	תשלומי בזק/חשמל
+PicklistValue.Command__c.Status.הכסף הועבר בהצלחה	הכסף הועבר בהצלחה
+PicklistValue.Command__c.Status.לא ניתן לביטול - בוצע בערוץ אחר	לא ניתן לביטול - בוצע בערוץ אחר
+PicklistValue.Command__c.Status.לא ניתן לביטול - נדחה ע"י בנקאי	לא ניתן לביטול - נדחה ע"י בנקאי
+PicklistValue.Command__c.Status.ניתן לבטל בסניף	ניתן לבטל בסניף
+PicklistValue.Command__c.Status.ניתן לביטול	ניתן לביטול
+PicklistValue.Command__c.Status.ניתן לביטול - אושר ע"י בנקאי	ניתן לביטול - אושר ע"י בנקאי
+PicklistValue.Command__c.Status.פג תוקף הפעולה	פג תוקף הפעולה
+PicklistValue.Command__c.Status.פעולה בוטלה	פעולה בוטלה
+PicklistValue.Command__c.Status.פעולה לא אושרה	פעולה לא אושרה
+PicklistValue.Command__c.Status.קבלת הכסף בוצעה בהצלחה	קבלת הכסף בוצעה בהצלחה
+PicklistValue.Command__c.Status.קבלת הכסף נכשלה	קבלת הכסף נכשלה
+PicklistValue.Debit__c.CategoryID.AVIS חברת השכרת רכב	AVIS חברת השכרת רכב
+PicklistValue.Debit__c.CategoryID.BUDGET חברת השכרת רכב	BUDGET חברת השכרת רכב
+PicklistValue.Debit__c.CategoryID.CROWNE PLAZAמלונות	CROWNE PLAZAמלונות
+PicklistValue.Debit__c.CategoryID.EL AL חברת תעופה ישראל	EL AL חברת תעופה ישראל
+PicklistValue.Debit__c.CategoryID.GOLDEN TULIP מלונות	GOLDEN TULIP מלונות
+PicklistValue.Debit__c.CategoryID.HILTON מלונות	HILTON מלונות
+PicklistValue.Debit__c.CategoryID.MERIDIEN מלונות	MERIDIEN מלונות
+PicklistValue.Debit__c.CategoryID.SHERATON מלונות	SHERATON מלונות
+PicklistValue.Debit__c.CategoryID.אגודות אזרחיות/חברתיות	אגודות אזרחיות/חברתיות
+PicklistValue.Debit__c.CategoryID.אגודות חברים	אגודות חברים
+PicklistValue.Debit__c.CategoryID.אגרת כבישים+גשרים	אגרת כבישים+גשרים
+PicklistValue.Debit__c.CategoryID.אופטומוטריסטים+אופטומולג'יסטים עיניים	אופטומוטריסטים+אופטומולג'יסטים עיניים
+PicklistValue.Debit__c.CategoryID.אופטיקאים מוצרי אופטיקה ומשקפיים	אופטיקאים מוצרי אופטיקה ומשקפיים
+PicklistValue.Debit__c.CategoryID.אספקה לבתי חולים מרפאת שיניים עיניים ו	אספקה לבתי חולים מרפאת שיניים עיניים ו
+PicklistValue.Debit__c.CategoryID.ארגוני צדקה וחברה	ארגוני צדקה וחברה
+PicklistValue.Debit__c.CategoryID.ארגוני רכב ממס""י	ארגוני רכב ממס""י
+PicklistValue.Debit__c.CategoryID.ביטוחים ופרמיות	ביטוחים ופרמיות
+PicklistValue.Debit__c.CategoryID.בתי חולים	בתי חולים
+PicklistValue.Debit__c.CategoryID.בתי מרקחת	בתי מרקחת
+PicklistValue.Debit__c.CategoryID.בתי ספר יסודיים ותיכוניים	בתי ספר יסודיים ותיכוניים
+PicklistValue.Debit__c.CategoryID.בתי ספר למסחר ומקצועים	בתי ספר למסחר ומקצועים
+PicklistValue.Debit__c.CategoryID.גלריות וסוחרי אומנות	גלריות וסוחרי אומנות
+PicklistValue.Debit__c.CategoryID.ונה פארקים קרקסים קרנבלים ומגלי עתידות	ונה פארקים קרקסים קרנבלים ומגלי עתידות
+PicklistValue.Debit__c.CategoryID.ועדוני חברים )ספורט פנאי אתלטיקה( קאנטר	ועדוני חברים )ספורט פנאי אתלטיקה( קאנטר
+PicklistValue.Debit__c.CategoryID.ועדוני ספורט מסחרי ומקצועי מגרשי אתלטיק	ועדוני ספורט מסחרי ומקצועי מגרשי אתלטיק
+PicklistValue.Debit__c.CategoryID.חברות תעופה+תובלה אוירית	חברות תעופה+תובלה אוירית
+PicklistValue.Debit__c.CategoryID.חוחרי רכב ומשאיות מכירה חלקי חילוף שירות	חוחרי רכב ומשאיות מכירה חלקי חילוף שירות
+PicklistValue.Debit__c.CategoryID.חוקרים פרטיים חברות אבטחה+בטחון כולל משו	חוקרים פרטיים חברות אבטחה+בטחון כולל משו
+PicklistValue.Debit__c.CategoryID.חייטים ותיקונים	חייטים ותיקונים
+PicklistValue.Debit__c.CategoryID.חנויות אוכל שונות נוחיות)שעות פתיחה+(שוו	חנויות אוכל שונות נוחיות)שעות פתיחה+(שוו
+PicklistValue.Debit__c.CategoryID.חנויות אופניים	חנויות אופניים
+PicklistValue.Debit__c.CategoryID.חנויות אופניים מכירה+שרות	חנויות אופניים מכירה+שרות
+PicklistValue.Debit__c.CategoryID.חנויות אלקטרוניקה	חנויות אלקטרוניקה
+PicklistValue.Debit__c.CategoryID.חנויות אספקה לאמנים ועבודות יד	חנויות אספקה לאמנים ועבודות יד
+PicklistValue.Debit__c.CategoryID.חנויות בגדים	חנויות בגדים
+PicklistValue.Debit__c.CategoryID.חנויות בולים ומטבעות	חנויות בולים ומטבעות
+PicklistValue.Debit__c.CategoryID.חנויות דיוטי פרי	חנויות דיוטי פרי
+PicklistValue.Debit__c.CategoryID.חנויות השכרת סרטי וידאו	חנויות השכרת סרטי וידאו
+PicklistValue.Debit__c.CategoryID.חנויות ודוכני סיגרים	חנויות ודוכני סיגרים
+PicklistValue.Debit__c.CategoryID.חנויות וילונות +ריפוד	חנויות וילונות +ריפוד
+PicklistValue.Debit__c.CategoryID.חנויות חוטים תפירה ובדים	חנויות חוטים תפירה ובדים
+PicklistValue.Debit__c.CategoryID.חנויות חומרי בנין ועץ	חנויות חומרי בנין ועץ
+PicklistValue.Debit__c.CategoryID.חנויות חיות בית אוכל לחיות וציוד	חנויות חיות בית אוכל לחיות וציוד
+PicklistValue.Debit__c.CategoryID.חנויות חלפים וציוד לרכב	חנויות חלפים וציוד לרכב
+PicklistValue.Debit__c.CategoryID.חנויות טפטים זכוכית וצבע	חנויות טפטים זכוכית וצבע
+PicklistValue.Debit__c.CategoryID.חנויות כלבו	חנויות כלבו
+PicklistValue.Debit__c.CategoryID.חנויות לבגדי גברים וילדים	חנויות לבגדי גברים וילדים
+PicklistValue.Debit__c.CategoryID.חנויות לבגדי ילדים ותינוקות	חנויות לבגדי ילדים ותינוקות
+PicklistValue.Debit__c.CategoryID.חנויות לבגדי משפחה	חנויות לבגדי משפחה
+PicklistValue.Debit__c.CategoryID.חנויות לבגדי נשים	חנויות לבגדי נשים
+PicklistValue.Debit__c.CategoryID.חנויות לחומרי בנין	חנויות לחומרי בנין
+PicklistValue.Debit__c.CategoryID.חנויות למוצרי גינון דשא ומשתלות	חנויות למוצרי גינון דשא ומשתלות
+PicklistValue.Debit__c.CategoryID.חנויות למוצרי חלב	חנויות למוצרי חלב
+PicklistValue.Debit__c.CategoryID.חנויות למוצרי נשים	חנויות למוצרי נשים
+PicklistValue.Debit__c.CategoryID.חנויות לממתקים ובוטנים	חנויות לממתקים ובוטנים
+PicklistValue.Debit__c.CategoryID.חנויות לריהוט וציוד ביתי )לא כולל מוצרי	חנויות לריהוט וציוד ביתי )לא כולל מוצרי
+PicklistValue.Debit__c.CategoryID.חנויות מוסיקה פסנתרים כלים דפי מוסיקה	חנויות מוסיקה פסנתרים כלים דפי מוסיקה
+PicklistValue.Debit__c.CategoryID.חנויות מוצרי חשמל ביתיים	חנויות מוצרי חשמל ביתיים
+PicklistValue.Debit__c.CategoryID.חנויות מוצרים מגוונים	חנויות מוצרים מגוונים
+PicklistValue.Debit__c.CategoryID.חנויות מזוודות ומוצרי עור	חנויות מזוודות ומוצרי עור
+PicklistValue.Debit__c.CategoryID.חנויות מזכרות כרטיסי ברכה ומתנות	חנויות מזכרות כרטיסי ברכה ומתנות
+PicklistValue.Debit__c.CategoryID.חנויות משקאות סיטונאי	חנויות משקאות סיטונאי
+PicklistValue.Debit__c.CategoryID.חנויות נעליים	חנויות נעליים
+PicklistValue.Debit__c.CategoryID.חנויות ספורט	חנויות ספורט
+PicklistValue.Debit__c.CategoryID.חנויות ספרים	חנויות ספרים
+PicklistValue.Debit__c.CategoryID.חנויות עתיקות מכירה תיקונים ושחזור	חנויות עתיקות מכירה תיקונים ושחזור
+PicklistValue.Debit__c.CategoryID.חנויות פרחים	חנויות פרחים
+PicklistValue.Debit__c.CategoryID.חנויות ציוד לביה""ס ומשרד	חנויות ציוד לביה""ס ומשרד
+PicklistValue.Debit__c.CategoryID.חנויות צילום	חנויות צילום
+PicklistValue.Debit__c.CategoryID.חנויות קוסמטיקה	חנויות קוסמטיקה
+PicklistValue.Debit__c.CategoryID.חנויות קימעוניות שונות ומתמחות	חנויות קימעוניות שונות ומתמחות
+PicklistValue.Debit__c.CategoryID.חנויות ריהוט ביתי	חנויות ריהוט ביתי
+PicklistValue.Debit__c.CategoryID.חנויות תוכנות מחשב	חנויות תוכנות מחשב
+PicklistValue.Debit__c.CategoryID.חנויות תחביבים צעצועים ומשחקים	חנויות תחביבים צעצועים ומשחקים
+PicklistValue.Debit__c.CategoryID.חנויות תיקון אלקטרוניקה	חנויות תיקון אלקטרוניקה
+PicklistValue.Debit__c.CategoryID.חנויות תיקון מיזוג אויר/ יחידות קירור	חנויות תיקון מיזוג אויר/ יחידות קירור
+PicklistValue.Debit__c.CategoryID.חנויות תיקון מכשירי חשמל	חנויות תיקון מכשירי חשמל
+PicklistValue.Debit__c.CategoryID.חנויות תיקון שונות	חנויות תיקון שונות
+PicklistValue.Debit__c.CategoryID.חנויות תכשיטים שעונים וכלי כסף	חנויות תכשיטים שעונים וכלי כסף
+PicklistValue.Debit__c.CategoryID.חנויות תקליטים	חנויות תקליטים
+PicklistValue.Debit__c.CategoryID.חנויות תשונות לביגוד ועזרים	חנויות תשונות לביגוד ועזרים
+PicklistValue.Debit__c.CategoryID.חנויות תשמישי קדושה	חנויות תשמישי קדושה
+PicklistValue.Debit__c.CategoryID.חניונים ומוסכים	חניונים ומוסכים
+PicklistValue.Debit__c.CategoryID.חשבים ותוכנה	חשבים ותוכנה
+PicklistValue.Debit__c.CategoryID.ימורים כרטיסי לוטו ג'טונים לקזינו מרוצי	ימורים כרטיסי לוטו ג'טונים לקזינו מרוצי
+PicklistValue.Debit__c.CategoryID.כימיקלים	כימיקלים
+PicklistValue.Debit__c.CategoryID.לא ידוע	לא ידוע
+PicklistValue.Debit__c.CategoryID.להקות תזמורות ואנשי בידור שונים	להקות תזמורות ואנשי בידור שונים
+PicklistValue.Debit__c.CategoryID.לינה ללילה מלונות מוטלים אתרי נופש	לינה ללילה מלונות מוטלים אתרי נופש
+PicklistValue.Debit__c.CategoryID.מאפיות	מאפיות
+PicklistValue.Debit__c.CategoryID.מוניות ולימוזינות	מוניות ולימוזינות
+PicklistValue.Debit__c.CategoryID.מוסדות לא פיננסים מטבע חוץ והמחאות נוסעי	מוסדות לא פיננסים מטבע חוץ והמחאות נוסעי
+PicklistValue.Debit__c.CategoryID.מוסדות פיננסים סחורה ושרותים	מוסדות פיננסים סחורה ושרותים
+PicklistValue.Debit__c.CategoryID.מוצרים בלתי מתכלים	מוצרים בלתי מתכלים
+PicklistValue.Debit__c.CategoryID.מוצרים מתכלים	מוצרים מתכלים
+PicklistValue.Debit__c.CategoryID.מזנוני אוכל מהיר	מזנוני אוכל מהיר
+PicklistValue.Debit__c.CategoryID.מחסני מוצרי בית	מחסני מוצרי בית
+PicklistValue.Debit__c.CategoryID.מכולות וסופרמרקטים	מכולות וסופרמרקטים
+PicklistValue.Debit__c.CategoryID.מכוני יופי ובריאות	מכוני יופי ובריאות
+PicklistValue.Debit__c.CategoryID.מסעדות	מסעדות
+PicklistValue.Debit__c.CategoryID.מעבדות רפואיות ומעבדות שיניים	מעבדות רפואיות ומעבדות שיניים
+PicklistValue.Debit__c.CategoryID.ניקוי שטיחים וריפוד	ניקוי שטיחים וריפוד
+PicklistValue.Debit__c.CategoryID.נפט דלק פחם עץ	נפט דלק פחם עץ
+PicklistValue.Debit__c.CategoryID.נפט ודלק	נפט ודלק
+PicklistValue.Debit__c.CategoryID.סוכני אניות	סוכני אניות
+PicklistValue.Debit__c.CategoryID.סוכני רכבים לפנאי וטיולים בשיטת בית נייד	סוכני רכבים לפנאי וטיולים בשיטת בית נייד
+PicklistValue.Debit__c.CategoryID.סוכניות להשכרת רכב	סוכניות להשכרת רכב
+PicklistValue.Debit__c.CategoryID.סוכניות לציוד רכב מטוסים וחקלאות	סוכניות לציוד רכב מטוסים וחקלאות
+PicklistValue.Debit__c.CategoryID.סוכניות נסיעות+מפעילי טיולים	סוכניות נסיעות+מפעילי טיולים
+PicklistValue.Debit__c.CategoryID.סחורה כללית	סחורה כללית
+PicklistValue.Debit__c.CategoryID.ספרות+סלוני יופי	ספרות+סלוני יופי
+PicklistValue.Debit__c.CategoryID.ספרים עיתונים וירחונים	ספרים עיתונים וירחונים
+PicklistValue.Debit__c.CategoryID.עורכי דין ושירותי משפט	עורכי דין ושירותי משפט
+PicklistValue.Debit__c.CategoryID.פאבים/בארים/מועדני לילה/דיסקוטקים	פאבים/בארים/מועדני לילה/דיסקוטקים
+PicklistValue.Debit__c.CategoryID.פקי/אמרגני תאטרון )לא כולל סרטים( וסוכנ	פקי/אמרגני תאטרון )לא כולל סרטים( וסוכנ
+PicklistValue.Debit__c.CategoryID.פרחים ומשתלות	פרחים ומשתלות
+PicklistValue.Debit__c.CategoryID.ציוד וחלקי חשמל	ציוד וחלקי חשמל
+PicklistValue.Debit__c.CategoryID.ציוד טלקומוניקציה וטלפון	ציוד טלקומוניקציה וטלפון
+PicklistValue.Debit__c.CategoryID.ציוד משרדי צילום ומיקרופילם	ציוד משרדי צילום ומיקרופילם
+PicklistValue.Debit__c.CategoryID.צילום מסחרי אמנות וגרפיקה	צילום מסחרי אמנות וגרפיקה
+PicklistValue.Debit__c.CategoryID.קבלני בטון	קבלני בטון
+PicklistValue.Debit__c.CategoryID.קבלני גג זיפות ואיטום	קבלני גג זיפות ואיטום
+PicklistValue.Debit__c.CategoryID.קבלני חימום שרברבות ומיזוג אוויר	קבלני חימום שרברבות ומיזוג אוויר
+PicklistValue.Debit__c.CategoryID.קבלני מקצועות מיוחדים	קבלני מקצועות מיוחדים
+PicklistValue.Debit__c.CategoryID.קבלני נגרות	קבלני נגרות
+PicklistValue.Debit__c.CategoryID.קבלנים כלליים למגורים ומסחר	קבלנים כלליים למגורים ומסחר
+PicklistValue.Debit__c.CategoryID.רהיטים למסחר ומשרדים	רהיטים למסחר ומשרדים
+PicklistValue.Debit__c.CategoryID.רופאי שיניים+מיישרי שיניים	רופאי שיניים+מיישרי שיניים
+PicklistValue.Debit__c.CategoryID.רופאים	רופאים
+PicklistValue.Debit__c.CategoryID.רותי ריתוך	רותי ריתוך
+PicklistValue.Debit__c.CategoryID.שווק ישיר טלמרקטינג )יוצא(	שווק ישיר טלמרקטינג )יוצא(
+PicklistValue.Debit__c.CategoryID.שווק ישיר מכירת מנויים	שווק ישיר מכירת מנויים
+PicklistValue.Debit__c.CategoryID.שווק ישיר קניה מקטלוגים	שווק ישיר קניה מקטלוגים
+PicklistValue.Debit__c.CategoryID.שווק ישיר קניה מקטלוגים+סוחרים קמעונאים	שווק ישיר קניה מקטלוגים+סוחרים קמעונאים
+PicklistValue.Debit__c.CategoryID.שווק ישיר שונות	שווק ישיר שונות
+PicklistValue.Debit__c.CategoryID.שירותי אדריכלות הנדסה וסריקה	שירותי אדריכלות הנדסה וסריקה
+PicklistValue.Debit__c.CategoryID.שירותי אחזקת רכב	שירותי אחזקת רכב
+PicklistValue.Debit__c.CategoryID.שירותי אחיות ומטפלים	שירותי אחיות ומטפלים
+PicklistValue.Debit__c.CategoryID.שירותי בתי ספר וחינוך	שירותי בתי ספר וחינוך
+PicklistValue.Debit__c.CategoryID.שירותי העתקה ושכפול מהירים	שירותי העתקה ושכפול מהירים
+PicklistValue.Debit__c.CategoryID.שירותי ואנשי רפואה	שירותי ואנשי רפואה
+PicklistValue.Debit__c.CategoryID.שירותי חשמל גז מים וסניטריה	שירותי חשמל גז מים וסניטריה
+PicklistValue.Debit__c.CategoryID.שירותי יעוץ חובות נישואים ואישיים	שירותי יעוץ חובות נישואים ואישיים
+PicklistValue.Debit__c.CategoryID.שירותי יעוץ ניהולי ויחסי ציבור	שירותי יעוץ ניהולי ויחסי ציבור
+PicklistValue.Debit__c.CategoryID.שירותי כביסה וניקוי	שירותי כביסה וניקוי
+PicklistValue.Debit__c.CategoryID.שירותי כבלים ושרותי טלוויזיה לפי תשלום	שירותי כבלים ושרותי טלוויזיה לפי תשלום
+PicklistValue.Debit__c.CategoryID.שירותי ממשלה	שירותי ממשלה
+PicklistValue.Debit__c.CategoryID.שירותי עסקים	שירותי עסקים
+PicklistValue.Debit__c.CategoryID.שירותי פנאי ונופש	שירותי פנאי ונופש
+PicklistValue.Debit__c.CategoryID.שירותי פרסום	שירותי פרסום
+PicklistValue.Debit__c.CategoryID.שירותי ראיית חשבון אודיטינג וניהול ספרים	שירותי ראיית חשבון אודיטינג וניהול ספרים
+PicklistValue.Debit__c.CategoryID.שירותי רשת/מידע של מחשבים	שירותי רשת/מידע של מחשבים
+PicklistValue.Debit__c.CategoryID.שירותי תובלה/הסעות	שירותי תובלה/הסעות
+PicklistValue.Debit__c.CategoryID.שירותי תיקוני צמיגים	שירותי תיקוני צמיגים
+PicklistValue.Debit__c.CategoryID.שירותים אישיים שונות	שירותים אישיים שונות
+PicklistValue.Debit__c.CategoryID.שירותים מקצועיים	שירותים מקצועיים
+PicklistValue.Debit__c.CategoryID.שליחויות והובלה של מטען העברה ואחסון	שליחויות והובלה של מטען העברה ואחסון
+PicklistValue.Debit__c.CategoryID.שרותי שליחויות אויר או קרקע שליחת מטען	שרותי שליחויות אויר או קרקע שליחת מטען
+PicklistValue.Debit__c.CategoryID.שרותי תקשורת כולל שיחות רגילות בכרטיסי א	שרותי תקשורת כולל שיחות רגילות בכרטיסי א
+PicklistValue.Debit__c.CategoryID.תחנות שירות לרכב	תחנות שירות לרכב
+PicklistValue.Debit__c.CategoryID.תי קולנוע	תי קולנוע
+PicklistValue.Debit__c.CategoryID.תכנות מחשבים עיבוד נתונים מערכות משולבות	תכנות מחשבים עיבוד נתונים מערכות משולבות
+PicklistValue.Debit__c.CategoryID.תרי תיירות ותצוגות	תרי תיירות ותצוגות
+PicklistValue.Debit__c.CategoryID.תשלומי מיסים	תשלומי מיסים
+PicklistValue.Account.Active.No	No
+PicklistValue.Account.Active.Yes	Yes
+PicklistValue.Account.CustomerPriority.High	High
+PicklistValue.Account.CustomerPriority.Low	Low
+PicklistValue.Account.CustomerPriority.Medium	Medium
+PicklistValue.Account.SLA.Bronze	Bronze
+PicklistValue.Account.SLA.Gold	Gold
+PicklistValue.Account.SLA.Platinum	Platinum
+PicklistValue.Account.SLA.Silver	Silver
+PicklistValue.Account.UpsellOpportunity.Maybe	Maybe
+PicklistValue.Account.UpsellOpportunity.No	No
+PicklistValue.Account.UpsellOpportunity.Yes	Yes
+PicklistValue.Case.PotentialLiability.No	No
+PicklistValue.Case.PotentialLiability.Yes	Yes
+PicklistValue.Case.Product.GC1020	GC1020
+PicklistValue.Case.Product.GC1040	GC1040
+PicklistValue.Case.Product.GC1060	GC1060
+PicklistValue.Case.Product.GC3020	GC3020
+PicklistValue.Case.Product.GC3040	GC3040
+PicklistValue.Case.Product.GC3060	GC3060
+PicklistValue.Case.Product.GC5020	GC5020
+PicklistValue.Case.Product.GC5040	GC5040
+PicklistValue.Case.Product.GC5060	GC5060
+PicklistValue.Case.SLAViolation.No	No
+PicklistValue.Case.SLAViolation.Yes	Yes
+PicklistValue.Contact.Disability_special_treatment.TBD	TBD
+PicklistValue.Contact.Level.Primary	Primary
+PicklistValue.Contact.Level.Secondary	Secondary
+PicklistValue.Contact.Level.Tertiary	Tertiary
+PicklistValue.Contact.Primary_Language.TBD	TBD
+PicklistValue.Contact.Primary_Language.אנגלית	אנגלית
+PicklistValue.Contact.Primary_Language.עברית	עברית
+PicklistValue.Contact.Primary_Language.ערבית	ערבית
+PicklistValue.Contact.Primary_Language.רוסית	רוסית
+PicklistValue.Lead.Primary.No	No
+PicklistValue.Lead.Primary.Yes	Yes
+PicklistValue.Lead.ProductInterest.GC1000 series	GC1000 series
+PicklistValue.Lead.ProductInterest.GC3000 series	GC3000 series
+PicklistValue.Lead.ProductInterest.GC5000 series	GC5000 series
+PicklistValue.Opportunity.DeliveryInstallationStatus.Completed	Completed
+PicklistValue.Opportunity.DeliveryInstallationStatus.In progress	In progress
+PicklistValue.Opportunity.DeliveryInstallationStatus.Yet to begin	Yet to begin
+PicklistValue.Standard.accountOwnership.Other	Other
+PicklistValue.Standard.accountOwnership.Private	Private
+PicklistValue.Standard.accountOwnership.Public	Public
+PicklistValue.Standard.accountOwnership.Subsidiary	Subsidiary
+PicklistValue.Standard.opportunityType.Existing Customer - Downgrade	Existing Customer - Downgrade
+PicklistValue.Standard.opportunityType.Existing Customer - Replacement	Existing Customer - Replacement
+PicklistValue.Standard.opportunityType.Existing Customer - Upgrade	Existing Customer - Upgrade
+PicklistValue.Standard.opportunityType.New Customer	New Customer
+PicklistValue.Standard.contactRole.Business User	Business User
+PicklistValue.Standard.contactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.contactRole.Economic Buyer	Economic Buyer
+PicklistValue.Standard.contactRole.Economic Decision Maker	Economic Decision Maker
+PicklistValue.Standard.contactRole.Evaluator	Evaluator
+PicklistValue.Standard.contactRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.contactRole.Influencer	Influencer
+PicklistValue.Standard.contactRole.Other	Other
+PicklistValue.Standard.contactRole.Technical Buyer	Technical Buyer
+PicklistValue.Standard.caseType.Electrical	Electrical
+PicklistValue.Standard.caseType.Electronic	Electronic
+PicklistValue.Standard.caseType.Mechanical	Mechanical
+PicklistValue.Standard.caseType.Other	Other
+PicklistValue.Standard.caseType.Structural	Structural
+PicklistValue.Standard.caseOrigin.Email	Email
+PicklistValue.Standard.caseOrigin.Phone	Phone
+PicklistValue.Standard.caseOrigin.Web	Web
+PicklistValue.Standard.caseReason.Breakdown	Breakdown
+PicklistValue.Standard.caseReason.Equipment Complexity	Equipment Complexity
+PicklistValue.Standard.caseReason.Equipment Design	Equipment Design
+PicklistValue.Standard.caseReason.Feedback	Feedback
+PicklistValue.Standard.caseReason.Installation	Installation
+PicklistValue.Standard.caseReason.Other	Other
+PicklistValue.Standard.caseReason.Performance	Performance
+PicklistValue.Standard.partnerRole.Advertiser	Advertiser
+PicklistValue.Standard.partnerRole.Agency	Agency
+PicklistValue.Standard.partnerRole.Broker	Broker
+PicklistValue.Standard.partnerRole.Consultant	Consultant
+PicklistValue.Standard.partnerRole.Contractor	Contractor
+PicklistValue.Standard.partnerRole.Dealer	Dealer
+PicklistValue.Standard.partnerRole.Developer	Developer
+PicklistValue.Standard.partnerRole.Distributor	Distributor
+PicklistValue.Standard.partnerRole.Institution	Institution
+PicklistValue.Standard.partnerRole.Lender	Lender
+PicklistValue.Standard.partnerRole.Supplier	Supplier
+PicklistValue.Standard.partnerRole.System Integrator	System Integrator
+PicklistValue.Standard.partnerRole.VAR/Reseller	VAR/Reseller
+PicklistValue.Standard.leadStatus.Closed - Converted	Closed - Converted
+PicklistValue.Standard.leadStatus.Closed - Not Converted	Closed - Not Converted
+PicklistValue.Standard.leadStatus.Open - Not Contacted	Open - Not Contacted
+PicklistValue.Standard.leadStatus.Working - Contacted	Working - Contacted
+PicklistValue.Standard.caseStatus.Closed	Closed
+PicklistValue.Standard.caseStatus.Escalated	Escalated
+PicklistValue.Standard.caseStatus.New	New
+PicklistValue.Standard.caseStatus.Working	Working
+PicklistValue.Standard.accountRating.Cold	Cold
+PicklistValue.Standard.accountRating.Hot	Hot
+PicklistValue.Standard.accountRating.Warm	Warm
+PicklistValue.Standard.casePriority.High	High
+PicklistValue.Standard.casePriority.Low	Low
+PicklistValue.Standard.casePriority.Medium	Medium
+PicklistValue.Standard.solutionStatus.Draft	Draft
+PicklistValue.Standard.solutionStatus.Duplicate	Duplicate
+PicklistValue.Standard.solutionStatus.Reviewed	Reviewed
+PicklistValue.Standard.taskStatus.Completed	Completed
+PicklistValue.Standard.taskStatus.Deferred	Deferred
+PicklistValue.Standard.taskStatus.In Progress	In Progress
+PicklistValue.Standard.taskStatus.Not Started	Not Started
+PicklistValue.Standard.taskStatus.Waiting on someone else	Waiting on someone else
+PicklistValue.Standard.opportunityStage.Closed Lost	Closed Lost
+PicklistValue.Standard.opportunityStage.Closed Won	Closed Won
+PicklistValue.Standard.opportunityStage.Id. Decision Makers	Id. Decision Makers
+PicklistValue.Standard.opportunityStage.Needs Analysis	Needs Analysis
+PicklistValue.Standard.opportunityStage.Negotiation/Review	Negotiation/Review
+PicklistValue.Standard.opportunityStage.Perception Analysis	Perception Analysis
+PicklistValue.Standard.opportunityStage.Proposal/Price Quote	Proposal/Price Quote
+PicklistValue.Standard.opportunityStage.Prospecting	Prospecting
+PicklistValue.Standard.opportunityStage.Qualification	Qualification
+PicklistValue.Standard.opportunityStage.Value Proposition	Value Proposition
+PicklistValue.Standard.campaignType.Advertisement	Advertisement
+PicklistValue.Standard.campaignType.Banner Ads	Banner Ads
+PicklistValue.Standard.campaignType.Conference	Conference
+PicklistValue.Standard.campaignType.Direct Mail	Direct Mail
+PicklistValue.Standard.campaignType.Email	Email
+PicklistValue.Standard.campaignType.Other	Other
+PicklistValue.Standard.campaignType.Partners	Partners
+PicklistValue.Standard.campaignType.Public Relations	Public Relations
+PicklistValue.Standard.campaignType.Referral Program	Referral Program
+PicklistValue.Standard.campaignType.Telemarketing	Telemarketing
+PicklistValue.Standard.campaignType.Trade Show	Trade Show
+PicklistValue.Standard.campaignType.Webinar	Webinar
+PicklistValue.Standard.campaignStatus.Aborted	Aborted
+PicklistValue.Standard.campaignStatus.Completed	Completed
+PicklistValue.Standard.campaignStatus.In Progress	In Progress
+PicklistValue.Standard.campaignStatus.Planned	Planned
+PicklistValue.Standard.contractStatus.Activated	Activated
+PicklistValue.Standard.contractStatus.Draft	Draft
+PicklistValue.Standard.contractStatus.In Approval Process	In Approval Process
+PicklistValue.Standard.accountType.Channel Partner / Reseller	Channel Partner / Reseller
+PicklistValue.Standard.accountType.Customer - Channel	Customer - Channel
+PicklistValue.Standard.accountType.Customer - Direct	Customer - Direct
+PicklistValue.Standard.accountType.Installation Partner	Installation Partner
+PicklistValue.Standard.accountType.Other	Other
+PicklistValue.Standard.accountType.Prospect	Prospect
+PicklistValue.Standard.accountType.Technology Partner	Technology Partner
+PicklistValue.Standard.eventType.Call	Call
+PicklistValue.Standard.eventType.Email	Email
+PicklistValue.Standard.eventType.Meeting	Meeting
+PicklistValue.Standard.eventType.Other	Other
+PicklistValue.Standard.taskType.Call	Call
+PicklistValue.Standard.taskType.Email	Email
+PicklistValue.Standard.taskType.Meeting	Meeting
+PicklistValue.Standard.taskType.Other	Other
+PicklistValue.Standard.salesTeamRole.Account Manager	Account Manager
+PicklistValue.Standard.salesTeamRole.Channel Manager	Channel Manager
+PicklistValue.Standard.salesTeamRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.salesTeamRole.Lead Qualifier	Lead Qualifier
+PicklistValue.Standard.salesTeamRole.Pre-Sales Consultant	Pre-Sales Consultant
+PicklistValue.Standard.salesTeamRole.Sales Manager	Sales Manager
+PicklistValue.Standard.salesTeamRole.Sales Rep	Sales Rep
+PicklistValue.Standard.orderStatus.Activated	Activated
+PicklistValue.Standard.orderStatus.Draft	Draft
+PicklistValue.Standard.campaignMemberStatus.Planned	Planned
+PicklistValue.Standard.campaignMemberStatus.Received	Received
+PicklistValue.Standard.campaignMemberStatus.Responded	Responded
+PicklistValue.Standard.campaignMemberStatus.Sent	Sent
+PicklistValue.Standard.accountContactRole.Business User	Business User
+PicklistValue.Standard.accountContactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.accountContactRole.Economic Buyer	Economic Buyer
+PicklistValue.Standard.accountContactRole.Economic Decision Maker	Economic Decision Maker
+PicklistValue.Standard.accountContactRole.Evaluator	Evaluator
+PicklistValue.Standard.accountContactRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.accountContactRole.Influencer	Influencer
+PicklistValue.Standard.accountContactRole.Other	Other
+PicklistValue.Standard.accountContactRole.Technical Buyer	Technical Buyer
+PicklistValue.Standard.contractContactRole.Business User	Business User
+PicklistValue.Standard.contractContactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.contractContactRole.Economic Buyer	Economic Buyer
+PicklistValue.Standard.contractContactRole.Economic Decision Maker	Economic Decision Maker
+PicklistValue.Standard.contractContactRole.Evaluator	Evaluator
+PicklistValue.Standard.contractContactRole.Executive Sponsor	Executive Sponsor
+PicklistValue.Standard.contractContactRole.Influencer	Influencer
+PicklistValue.Standard.contractContactRole.Other	Other
+PicklistValue.Standard.contractContactRole.Technical Buyer	Technical Buyer
+PicklistValue.Standard.industry.Agriculture	Agriculture
+PicklistValue.Standard.industry.Apparel	Apparel
+PicklistValue.Standard.industry.Banking	Banking
+PicklistValue.Standard.industry.Biotechnology	Biotechnology
+PicklistValue.Standard.industry.Chemicals	Chemicals
+PicklistValue.Standard.industry.Communications	Communications
+PicklistValue.Standard.industry.Construction	Construction
+PicklistValue.Standard.industry.Consulting	Consulting
+PicklistValue.Standard.industry.Education	Education
+PicklistValue.Standard.industry.Electronics	Electronics
+PicklistValue.Standard.industry.Energy	Energy
+PicklistValue.Standard.industry.Engineering	Engineering
+PicklistValue.Standard.industry.Entertainment	Entertainment
+PicklistValue.Standard.industry.Environmental	Environmental
+PicklistValue.Standard.industry.Finance	Finance
+PicklistValue.Standard.industry.Food & Beverage	Food & Beverage
+PicklistValue.Standard.industry.Government	Government
+PicklistValue.Standard.industry.Healthcare	Healthcare
+PicklistValue.Standard.industry.Hospitality	Hospitality
+PicklistValue.Standard.industry.Insurance	Insurance
+PicklistValue.Standard.industry.Machinery	Machinery
+PicklistValue.Standard.industry.Manufacturing	Manufacturing
+PicklistValue.Standard.industry.Media	Media
+PicklistValue.Standard.industry.Not For Profit	Not For Profit
+PicklistValue.Standard.industry.Other	Other
+PicklistValue.Standard.industry.Recreation	Recreation
+PicklistValue.Standard.industry.Retail	Retail
+PicklistValue.Standard.industry.Shipping	Shipping
+PicklistValue.Standard.industry.Technology	Technology
+PicklistValue.Standard.industry.Telecommunications	Telecommunications
+PicklistValue.Standard.industry.Transportation	Transportation
+PicklistValue.Standard.industry.Utilities	Utilities
+PicklistValue.Standard.assetStatus.Installed	Installed
+PicklistValue.Standard.assetStatus.Obsolete	Obsolete
+PicklistValue.Standard.assetStatus.Purchased	Purchased
+PicklistValue.Standard.assetStatus.Registered	Registered
+PicklistValue.Standard.assetStatus.Shipped	Shipped
+PicklistValue.Standard.fiscalYearQuarterPrefix.FQ	FQ
+PicklistValue.Standard.fiscalYearQuarterPrefix.Q	Q
+PicklistValue.Standard.fiscalYearQuarterPrefix.Quarter	Quarter
+PicklistValue.Standard.fiscalYearQuarterPrefix.Trimester	Trimester
+PicklistValue.Standard.fiscalYearPeriodPrefix.FP	FP
+PicklistValue.Standard.fiscalYearPeriodPrefix.Month	Month
+PicklistValue.Standard.fiscalYearPeriodPrefix.P	P
+PicklistValue.Standard.fiscalYearPeriodPrefix.Period	Period
+PicklistValue.Standard.fiscalYearQuarterName.Fall	Fall
+PicklistValue.Standard.fiscalYearQuarterName.Spring	Spring
+PicklistValue.Standard.fiscalYearQuarterName.Summer	Summer
+PicklistValue.Standard.fiscalYearQuarterName.Winter	Winter
+PicklistValue.Standard.caseContactRole.Business Contact	Business Contact
+PicklistValue.Standard.caseContactRole.Decision Maker	Decision Maker
+PicklistValue.Standard.caseContactRole.Other	Other
+PicklistValue.Standard.caseContactRole.Technical Contact	Technical Contact
+PicklistValue.Standard.forecastCategoryName.Best Case	Best Case
+PicklistValue.Standard.forecastCategoryName.Closed	Closed
+PicklistValue.Standard.forecastCategoryName.Commit	Commit
+PicklistValue.Standard.forecastCategoryName.Omitted	Omitted
+PicklistValue.Standard.forecastCategoryName.Pipeline	Pipeline
+PicklistValue.Standard.eventSubject.Call	Call
+PicklistValue.Standard.eventSubject.Email	Email
+PicklistValue.Standard.eventSubject.Meeting	Meeting
+PicklistValue.Standard.eventSubject.Other	Other
+PicklistValue.Standard.eventSubject.Send Letter/Quote	Send Letter/Quote
+PicklistValue.Standard.taskPriority.High	High
+PicklistValue.Standard.taskPriority.Low	Low
+PicklistValue.Standard.taskPriority.Normal	Normal
+PicklistValue.Standard.socialPostEngagementLevel.Commented	Commented
+PicklistValue.Standard.socialPostEngagementLevel.Resolved	Resolved
+PicklistValue.Standard.socialPostEngagementLevel.Reviewed	Reviewed
+PicklistValue.Standard.socialPostEngagementLevel.Submitted	Submitted
+PicklistValue.Standard.socialPostClassification.Customer Case	Customer Case
+PicklistValue.Standard.socialPostClassification.Inquiry	Inquiry
+PicklistValue.Standard.socialPostClassification.Lead	Lead
+PicklistValue.Standard.socialPostClassification.Outreach	Outreach
+PicklistValue.Standard.socialPostClassification.Product Review	Product Review
+PicklistValue.Standard.taskSubject.Call	Call
+PicklistValue.Standard.taskSubject.Email	Email
+PicklistValue.Standard.taskSubject.Other	Other
+PicklistValue.Standard.taskSubject.Send Letter	Send Letter
+PicklistValue.Standard.taskSubject.Send Quote	Send Quote
+PicklistValue.Standard.salutation.Dr.	Dr.
+PicklistValue.Standard.salutation.Mr.	Mr.
+PicklistValue.Standard.salutation.Mrs.	Mrs.
+PicklistValue.Standard.salutation.Ms.	Ms.
+PicklistValue.Standard.salutation.Prof.	Prof.
+PicklistValue.Standard.leadSource.Other	Other
+PicklistValue.Standard.leadSource.Partner Referral	Partner Referral
+PicklistValue.Standard.leadSource.Phone Inquiry	Phone Inquiry
+PicklistValue.Standard.leadSource.Purchased List	Purchased List
+PicklistValue.Standard.leadSource.Web	Web
