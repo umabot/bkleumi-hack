@@ -19,7 +19,7 @@ First we pre-created several <a href="https://developer.salesforce.com/page/An_I
 
 We hope you will apreciatte the help. Although starting to explore <a href="http://www.salesforce.com/salesforce1/">Salesforce 1</a> the same day is not the best path of action.
 
-So, Second, we packaged the data model and you can register for a DEV ORG and install it. And start hacking around!
+So, Second, we packaged the data model and you can <a href="https://developer.salesforce.com/signup?d=70130000000hUZp">register for a DEV ORG</a> and install it. And start hacking around!
 
 The link to install the data model is here:
 
