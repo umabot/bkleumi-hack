@@ -34,20 +34,19 @@ And the <a href="https://github.com/umabot/bkleumi-hack/tree/master/translation"
 <h2>Technical Resources</h2>
 <h3><a href="https://developer.salesforce.com/page/Force.com_workbook">Workbooks:</a></h3>
 
-1. <a href="https://developer.salesforce.com/docs/atlas.en-us.workbook.meta/workbook/">Force.com Workbook </a>
+<a href="https://developer.salesforce.com/docs/atlas.en-us.workbook.meta/workbook/">Force.com Workbook </a>
 
 If you are completely new to Salesforce you should go through this.
 
- 
-2. <a href="http://res.cloudinary.com/hy4kyit2a/image/upload/s1_mobile_woorkbook_v3-21.pdf">Salesforce1 Mobile Workbook</a>
+<a href="http://res.cloudinary.com/hy4kyit2a/image/upload/s1_mobile_woorkbook_v3-21.pdf">Salesforce1 Mobile Workbook</a>
 
 Go through this to learn how to build Salesforce1 apps.
 
-3. <a href="http://res.cloudinary.com/hy4kyit2a/image/upload/workbook_text_Heroku.pdf">Salesforce1 + Heroku - Integration</a>
+<a href="http://res.cloudinary.com/hy4kyit2a/image/upload/workbook_text_Heroku.pdf">Salesforce1 + Heroku - Integration</a>
 
 If you are building a Salesforce Canvas app, this is where you should start.
  
-4. <a href="https://developer.salesforce.com/blogs/developer-relations/2014/07/a-beginners-guide-salesforce1.html">A beginners Guide to Salesforce 1</a>
+<a href="https://developer.salesforce.com/blogs/developer-relations/2014/07/a-beginners-guide-salesforce1.html">A beginners Guide to Salesforce 1</a>
 
 This blog lists several blogs, tutorials, videos etc. to help guide Salesforce1 beginners.
 
@@ -58,9 +57,13 @@ You can integrate at the level of <a href="http://wiki.developerforce.com/page/F
 
 <h3><a href"https://developer.salesforce.com/page/Tools">Tools</a></h3>
 There are many tools and here are some of them.
+
 1. <a href="https://developer.salesforce.com/page/Workbench">Workbench</a>
+
 2. <a href="https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo">A Chrome browser plugin called Advanced REST Client</a>
+
 3. <a href="https://developer.salesforce.com/page/Force.com_IDE">Force.com IDE</a>
+
 4. <a href="https://github.com/heroku/forceE">Force.com CLI Tool</a>
 
 <h2>Important salesforce.com Org Considerations for all teams</h2>
