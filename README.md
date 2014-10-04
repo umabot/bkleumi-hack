@@ -23,7 +23,7 @@ So, Second, we packaged the data model and you can <a href="https://developer.sa
 
 The link to install the data model is here:
 
-<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t200000006Vut">https://login.salesforce.com/packaging/installPackage.apexp?p0=04t200000006Vut</a>
+<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t200000006VzU">https://login.salesforce.com/packaging/installPackage.apexp?p0=04t200000006VzU</a>
 
 The package does not import the data, neither the translations.
 
