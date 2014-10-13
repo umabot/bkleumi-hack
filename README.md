@@ -27,7 +27,7 @@ The link to install the data model is here:
 
 The package does not import the data, neither the translations.
 
-The source CSV files are included in the package as static resources. But also you can find <a href="https://github.com/umabot/bkleumi-hack/tree/master/data">them here</a>
+You can find <a href="https://drive.google.com/folderview?id=0ByBJefqzYuRxbk9UZ1lkWmRaV28&usp=sharing ">the CSV files here</a>
 
 And the <a href="https://github.com/umabot/bkleumi-hack/tree/master/translation">translation file here</a>
 
