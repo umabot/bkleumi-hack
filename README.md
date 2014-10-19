@@ -73,6 +73,7 @@ Please note that developer edition orgs have a small data capacity of 5MB and a 
 For more information read about <a href="https://developer.salesforce.com/page/Developer_Edition">Force.com Developers Editions</a>
 
 <h1>Salesforce Technical Help</h1>
+In the specific topic of Heroku, the resident Heorku engineer during the Hackaton wrote this <a href="https://gist.github.com/idan/55eae71cbff7c19727a9">fantastic guide</a> to get you started!
 
 You can of course ask onsite help. If you wish to benefit from the 1.5 million salesforce developers already using our technology, please post questions to the salesforce.com developer forums at <a href="https://developer.salesforce.com/forums">developer.salesforce.com/forums</a>
 
